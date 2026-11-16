@@ -1,0 +1,29 @@
+name: personalclock_app
+description: "A beautiful alarm clock app with custom alarms"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.0
+  numberpicker: ^2.1.2
+  qr_flutter: ^4.1.0  # For generating QR codes
+  mobile_scanner: ^3.5.5  # For scanning QR codes
+  uuid: ^4.0.0  # For generating unique IDs
+  shared_preferences: ^2.2.2  # For storing user's unique QR code
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
